@@ -1,56 +1,9 @@
 /* =================================================================== 
-
+ *
+ *  Morbium Stylesheet
+ *  
  *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # base style overrides
- *      ## links
- *  # typography & general theme styles
- *      ## Lists
- *      ## responsive video container
- *      ## floated image
- *      ## tables
- *      ## Spacing
- *      ## pace.js styles - minimal
- *  # preloader
- *  # forms
- *      ## style placeholder text
- *      ## change autocomplete styles in chrome
- *  # buttons
- *  # additional components
- *      ## alert box
- *      ## additional typo styles
- *      ## skillbars 
- *  # reusable and common theme styles
- *      ## display headings
- *      ## section header
- *      ## slick slider
- *  # header styles
- *      ## header logo
- *      ## main navigation 
- *      ## mobile menu toggle 
- *  # home 
- *      ## home content
- *      ## home social 
- *      ## home animations
- *  # about
- *      ## about stats
- *  # services
- *      ## services list
- *  # works
- *      ## bricks/masonry
- *  # clients
- *      ## slider
- *      ## testimonials
- *  # contact
- *      ## loader animation
- *  # footer
- *      ## footer main
- *      ## footer bottom
- *      ## go to top
- *
- *
- * =================================================================== */
+*/
 
 
 /* ===================================================================
@@ -2198,7 +2151,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #da0000;
+    background-color: #000000;
     color: #ffffff;
     position: relative;
 }
@@ -2249,7 +2202,7 @@ html.no-csstransitions .home-content__main {
 .stats h5 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
-    color: #000000;
+    color: #ffffff;
     font-size: 1.8rem;
     line-height: 1.333;
     position: relative;
